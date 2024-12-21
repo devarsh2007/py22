@@ -22,4 +22,4 @@ print("hello \nworld")
 #a = 30
 print(f"a : {a}")
 print(f"b : {b}")
-print(f"answer : {answer}")
+print(f"answer = {answer}")

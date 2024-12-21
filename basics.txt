@@ -1,0 +1,11 @@
+() - paranthis
+{} - curly brackets
+[] - square brackets
+: - colon
+* - start - astric
+% - modulas
+< - less than
+> - grater than
+"" - double quates
+'' - single quates
+""" """ - triple quates

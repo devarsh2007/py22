@@ -23,3 +23,12 @@ print("hello \nworld")
 print(f"a : {a}")
 print(f"b : {b}")
 print(f"answer = {answer}")
+
+name = "python"
+text = """
+    this 
+    is multiline string
+"""
+
+print(text)
+

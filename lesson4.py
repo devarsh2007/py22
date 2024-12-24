@@ -29,5 +29,4 @@ text = """
     this is third line
 """
 last = len(text) - 1
-
 print(text[0:last])

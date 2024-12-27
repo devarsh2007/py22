@@ -26,3 +26,10 @@ print(number[-1::-4])
 print(student+number) #concatination - merge
 print(number*3)     #repeatetion
 print(student*2)
+
+l1=[1,2,3]
+l2=[4,5,6]
+l1.append(l2)
+print(l1)
+print(l1[3][2])
+print(l1[3][0])

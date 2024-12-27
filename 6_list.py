@@ -1,4 +1,5 @@
 l1 = ["red","green","red","yellow","blue","black"]
+# l2 = list(1,2,3,4)
 print(l1)
 l1[4] = "white"
 print(l1)

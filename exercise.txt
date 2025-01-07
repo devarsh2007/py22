@@ -1,0 +1,10 @@
+1) write a program that perform opration like revrse a number,check number is palimbrome or not , swap(25=>52) a number using elif lader...
+
+2) write a program that conert a string to list , tuple , set , dictionary....
+string = hello
+[h,e,l,l,o]  
+(h,e,l,l,o)
+{h,e,l,o}
+{h:1,e:2,l:3,l:4,o:5}
+take choise from user using elif lader
+

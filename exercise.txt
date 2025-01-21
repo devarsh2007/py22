@@ -8,3 +8,8 @@ string = hello
 {h:1,e:2,l:3,l:4,o:5}
 take choise from user using elif lader
 
+3) write a program that print following pattern
+    1 4 9 ... 100
+
+4) write a program that print
+    a b c d....z

@@ -66,15 +66,27 @@ karnataka_cities = [
 count = 0
 # i = 0
 
-name = input("enter list name : ")
+print("1 for gujrat\n2 for maharatra\n3 for rajsthan\n4 for karnataka")
+choise = int(input("enter your choise : "))
+name = []
+if choise==1:
+    name = gujarat_cities
+
+elif choise==2:
+    name = maharashtra_cities
+    
+elif choise == 3:
+    name = rajasthan_cities
+    
+elif choise ==4:
+    name = karnataka_cities
 
 while count < len(name):
-    print(name[count])
+    print(name[count],end=" ")
     #increment
     count+=1     # count = count+1 
     # i+=1           # i = i+1
     
-
 
 # if while loop not contain increment or decrement then infinite loop occurs
     # count = count-1    #decrement

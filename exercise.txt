@@ -13,3 +13,6 @@ take choise from user using elif lader
 
 4) write a program that print
     a b c d....z
+    z,y,x....a without using list
+
+

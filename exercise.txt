@@ -15,4 +15,3 @@ take choise from user using elif lader
     a b c d....z
     z,y,x....a without using list
 
-

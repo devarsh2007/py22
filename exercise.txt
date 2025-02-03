@@ -15,3 +15,13 @@ take choise from user using elif lader
     a b c d....z
     z,y,x....a without using list
 
+5) print folling pattern
+a
+ab
+abc
+abcd
+
+abcd
+abc
+ab
+a

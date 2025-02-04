@@ -13,6 +13,8 @@ def printline():
 
 # 1-10
 # 1 x 1 =1
+
+# without argument without return value function
 def table():
     start = int(input("enter starting number : "))
     end = int(input("enter ending number : "))

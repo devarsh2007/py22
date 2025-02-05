@@ -29,3 +29,6 @@ a
 6) write a function that calculate area of triangle
 7) write a function that print finacci series
 0 1 1 2 3 5 8...n
+a b c
+  a b c
+    a b c

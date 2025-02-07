@@ -32,3 +32,6 @@ a
 a b c
   a b c
     a b c
+
+7) write a program that read a file 
+and it count all charecters in file

@@ -35,3 +35,7 @@ a b c
 
 7) write a program that read a file 
 and it count all charecters in file
+
+8) write a program that cut content of a file and paste to another file
+9) write a program that reverse content of a file
+    ->hello world   ->dlrow olleh

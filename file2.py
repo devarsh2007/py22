@@ -15,4 +15,5 @@ elif choise==2:
     file = open(filename,'r')
     print(f'---------------- {filename} -------------------')
     print(file.read())
+    file.close()
     

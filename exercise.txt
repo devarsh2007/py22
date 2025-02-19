@@ -39,3 +39,12 @@ and it count all charecters in file
 8) write a program that cut content of a file and paste to another file
 9) write a program that reverse content of a file
     ->hello world   ->dlrow olleh
+
+
+10) create a class for employee management
+-> details - name, salary,age , department,experiance(year)
+-> leave -> 5<leave is not given
+         -> 5>leave is given
+
+-> if experiance>10 -> increase salary +20000
+-> if leaves > 10 -> -10000

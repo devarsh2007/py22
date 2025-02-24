@@ -12,3 +12,13 @@ add()
 print(a)
 
 print(b)
+
+# dir
+import mymaths
+import module1
+
+# print(dir(mymaths))
+l1 = dir(mymaths)
+# print(l1[0])
+
+print(dir(module1))

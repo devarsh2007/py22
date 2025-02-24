@@ -1,6 +1,6 @@
 # import
 # 1) import module_name  
-# 2) from module_name import fun,var...
+# 2) from module_name import fun,var...| *
 
 import mymaths as m
 

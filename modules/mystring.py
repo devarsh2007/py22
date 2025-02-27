@@ -14,3 +14,9 @@ text = "1 2 3 4 1"
 print(text.replace("1","10",1))
 print(text)
 
+text ="hello world"
+l1 = text.split()
+print(l1)
+
+import mypackage.mymaths as m
+m.add(1,2)

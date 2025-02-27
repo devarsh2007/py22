@@ -1,0 +1,14 @@
+product menegment
+-----------------------------------------
+1) add product 
+2) remove product
+3) edit product
+4) view product
+
+database
+-----------------------------------------
+table:
+1) products  - id,name,price,desc
+2) users - id,name,mobile,address
+3) payment - id,userid,productid,amount,date
+

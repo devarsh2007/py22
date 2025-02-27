@@ -14,7 +14,7 @@ print(a)
 print(b)
 
 # dir
-import mymaths
+import modules.mypackage.mymaths as mymaths
 import module1
 
 # print(dir(mymaths))

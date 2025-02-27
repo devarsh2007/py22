@@ -2,7 +2,7 @@
 # 1) import module_name  
 # 2) from module_name import fun,var...| *
 
-import mymaths as m
+import modules.mypackage.mymaths as m
 
 a= int(input("enter number1 : "))
 b= int(input("enter number2 : "))

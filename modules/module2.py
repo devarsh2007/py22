@@ -1,7 +1,7 @@
 # from mymaths import add,div
 # import add and div fun
 
-from mymaths import *
+from modules.mypackage.mymaths import *
 
 add(10,20)
 # sub()  - this cuase an error

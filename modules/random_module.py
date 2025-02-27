@@ -30,3 +30,9 @@ print(sample(l1,3))
 # s = [1,2,3,4,5]
 # s=[2,3]
 print(l1)
+
+
+l1 = ["A","B","C","0","9","@","$"]
+l1 = choices(l1,k=4)
+password = "".join(l1)
+print(password)

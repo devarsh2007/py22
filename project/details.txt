@@ -1,5 +1,9 @@
 product menegment
 -----------------------------------------
+user view
+buy product
+
+seller view
 1) add product 
 2) remove product
 3) edit product
@@ -8,7 +12,7 @@ product menegment
 database
 -----------------------------------------
 table:
-1) products  - id,name,price,desc
+1) products  - id,name,price,details
 2) users - id,name,mobile,address
-3) payment - id,userid,productid,amount,date
+3) payments - id,userid,productid,amount,date
 

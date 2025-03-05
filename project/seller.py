@@ -43,13 +43,12 @@ def view():
     sql = "select * from products"
     mycursor.execute(sql)
     data = mycursor.fetchall()
-    print(data)
+    return data
     
     # searching algorithm
     # name = input("enter name : ")
     # for i in data:
     #     if i[1] == name:
     #         print(i)
-    
-view()
 db.commit()
+  

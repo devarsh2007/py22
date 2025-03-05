@@ -3,6 +3,12 @@ product menegment
 user view
 buy product
 
+product desplay -> buy -> payment 
+-> user table - name,address,mobile   -> 1st function
+-> payments table - fields   -> 2st function
+
+user table -> 
+
 seller view
 1) add product 
 2) remove product

@@ -9,7 +9,6 @@ def adduser(name,address,mobile):
 
     mycursor.execute(sql,values)
     print("user added successfuly...")
-
     
 def uid(name=0):
     sql = "select id from users where name = %s"

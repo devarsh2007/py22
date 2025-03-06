@@ -3,32 +3,21 @@ db = con.connect(user="root",password="",database="py22",host="localhost")
 
 mycursor = db.cursor()
 
-def adduser():
+def adduser(name,address,mobile):
     sql = "insert into users values(%s,%s,%s,%s)"
-
-    name = input("enter your name : ")
-    address = (input("enter your address : "))
-    mobile= int(input("enter your mobile : "))
-    
     values=["",name,address,mobile]
 
     mycursor.execute(sql,values)
     print("user added successfuly...")
+
     
-
-def addpayment():
-    sql = "insert into payments values(%s,%s,%s,%s,%s)"
+def uid(name=0):
+    sql = "select id from users where name = %s"
     
-    uid = 0
-    pid = 0
-    amount= 0
-    date = 0
-
-    values=[]
-
+    values = [name]
     mycursor.execute(sql,values)
-    print("payment added successfuly...")
-
-
+    data = mycursor.fetchone()
+    return data[0]
+    # print(data)
 
 db.commit()

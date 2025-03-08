@@ -1,0 +1,8 @@
+student manegement
+-----------------------------------------
+tables
+---------------
+student - id,name,age,class,mobile
+payment - id ,sid,amount,date
+leave - id,name,age,date,mobile
+

@@ -3,7 +3,7 @@ product menegment
 user view
 buy product
 
-product desplay -> buy -> payment 
+product display -> buy -> payment 
 -> user table - name,address,mobile   -> 1st function
 -> payments table - fields   -> 2st function
 

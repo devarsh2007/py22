@@ -13,6 +13,7 @@ if choise==1:
     address = (input("enter your address : "))
     mobile= (input("enter your mobile : "))
     c.adduser(name,address,mobile)
+    
     uid = c.uid(name)
     
     print("\n----------- select your product ------------")
@@ -37,7 +38,7 @@ if choise==1:
                 data = mycursor.fetchone()
                 amt = int(data[0])
                 # print(amt)
-                # -----------------------
+                # -----------------------   
                 
                 # -----------------------
                 today = date.today()

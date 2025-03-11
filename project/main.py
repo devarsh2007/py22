@@ -38,7 +38,7 @@ if choise==1:
                 data = mycursor.fetchone()
                 amt = int(data[0])
                 # print(amt)
-                # -----------------------   
+                # -----------------------  
                 
                 # -----------------------
                 today = date.today()

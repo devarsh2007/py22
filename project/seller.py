@@ -12,7 +12,6 @@ def add():
     details= input("enter product details : ")
 
     values=["",name,price,details]
-
     mycursor.execute(sql,values)
     print("product added successfuly...")
 

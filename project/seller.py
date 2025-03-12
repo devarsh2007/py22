@@ -51,6 +51,6 @@ def view():
     # for i in data:
     #     if i[1] == name:
     #         print(i)
-    
+  
 db.commit()
   
